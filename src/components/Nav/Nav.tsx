@@ -103,28 +103,28 @@ const Nav = () => {
             </Typography>
 
             <Box mr={5}>
-              <a target="_blank" rel="noopener noreferrer" href="https://app.mvfinance.club/" className={classes.link}>
+              <a rel="noopener noreferrer" href="https://app.mvfinance.club/" className={classes.link}>
                 Home
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://app.mvfinance.club/farms" className={classes.link}>
+              <a rel="noopener noreferrer" href="https://app.mvfinance.club/farms" className={classes.link}>
               Farms
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://miniverse-mint-dapp.vercel.app/" className={classes.link}>
+              <a rel="noopener noreferrer" href="https://miniverse-mint-dapp.vercel.app/" className={classes.link}>
               Land Mint
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://confident-carson-b87901.netlify.app/minichilla" className={classes.link}>
+              <a rel="noopener noreferrer" href="mvfinance.club/minichilla" className={classes.link}>
               Minichilla
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://confident-carson-b87901.netlify.app/miniguinea" className={classes.link}>
+              <a rel="noopener noreferrer" href="mvfinance.club/miniguinea" className={classes.link}>
               Miniguinea
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://confident-carson-b87901.netlify.app/miniland" className={classes.link}>
+              <a rel="noopener noreferrer" href="mvfinance.club/miniland" className={classes.link}>
               Miniland
               </a>      
-              <a target="_blank" rel="noopener noreferrer" href="https://app.mvfinance.club/boardroom" className={classes.link}>
+              <a rel="noopener noreferrer" href="https://app.mvfinance.club/boardroom" className={classes.link}>
               Boardroom
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://app.mvfinance.club/bonds" className={classes.link}>
+              <a rel="noopener noreferrer" href="https://app.mvfinance.club/bonds" className={classes.link}>
               Bonds
               </a>
     
@@ -183,15 +183,15 @@ const Nav = () => {
                   <ListItemText>LAND MINT</ListItemText>
                 </ListItem>
 
-                <ListItem button component="a" href="https://confident-carson-b87901.netlify.app/minichilla">
+                <ListItem button component="a" href="https://mvfinance.club/minichilla">
                   <ListItemText>MINICHILLA</ListItemText>
                 </ListItem>
 
-                <ListItem button component="a" href="https://confident-carson-b87901.netlify.app/miniguinea">
+                <ListItem button component="a" href="https://mvfinance.club/miniguinea">
                   <ListItemText>MINIGUINEA</ListItemText>
                 </ListItem>
                 
-                <ListItem button component="a" href="https://confident-carson-b87901.netlify.app/miniland">
+                <ListItem button component="a" href="https://mvfinance.club/miniland">
                   <ListItemText>MINI LAND</ListItemText>
                 </ListItem>
 
