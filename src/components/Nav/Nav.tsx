@@ -103,34 +103,33 @@ const Nav = () => {
             </Typography>
 
             <Box mr={5}>
-              <Link color="textPrimary" to="/" className={classes.link}>
+              <a target="_blank" rel="noopener noreferrer" href="https://app.mvfinance.club/" className={classes.link}>
                 Home
-              </Link>
-              <Link color="textPrimary" to="/farms" className={classes.link}>
-                Farms
-              </Link>
-              <Link color="textPrimary" to="/boardroom" className={classes.link}>
-                Boardroom
-              </Link>
-              <Link color="textPrimary" to="/bonds" className={classes.link}>
-                Bonds
-              </Link>
-              {/* <Link color="textPrimary" to="/dividends" className={classes.link}>
-                Dividends
-              </Link> */}
-              {/* <Link color="textPrimary" to="/sbs" className={classes.link}>
-                SBS
-              </Link>
-              <Link color="textPrimary" to="/liquidity" className={classes.link}>
-                Liquidity
-              </Link>
-              <Link color="textPrimary" to="/regulations" className={classes.link}>
-                Regulations
-              </Link> */}
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://app.mvfinance.club/farms" className={classes.link}>
+              Farms
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://miniverse-mint-dapp.vercel.app/" className={classes.link}>
+              Land Mint
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://confident-carson-b87901.netlify.app/minichilla" className={classes.link}>
+              Minichilla
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://confident-carson-b87901.netlify.app/miniguinea" className={classes.link}>
+              Miniguinea
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://confident-carson-b87901.netlify.app/miniland" className={classes.link}>
+              Miniland
+              </a>      
+              <a target="_blank" rel="noopener noreferrer" href="https://app.mvfinance.club/boardroom" className={classes.link}>
+              Boardroom
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://app.mvfinance.club/bonds" className={classes.link}>
+              Bonds
+              </a>
+    
 
-              {/* <a target="_blank" href="https://docs.2omb.finance/contracts/tokens" className={classes.link}>
-                Contracts
-              </a> */}
+
               <a target="_blank" rel="noopener noreferrer" href="https://miniversefinance.gitbook.io/docs/" className={classes.link}>
                 Docs
               </a>
@@ -170,14 +169,40 @@ const Nav = () => {
               </div>
               <Divider />
               <List>
-                <ListItemLink primary="HOME" to="/" />
-                <ListItemLink primary="FARMS" to="/farms" />
-                <ListItemLink primary="BOARDROOM" to="/boardroom" />
-                <ListItemLink primary="BONDS" to="/bonds" />
-                {/* <ListItemLink primary="DIVIDENDS" to="/dividends" /> */}
-                {/* <ListItemLink primary="SBS" to="/sbs" />
-                <ListItemLink primary="Liquidity" to="/liquidity" />
-                <ListItemLink primary="Regulations" to="/regulations" /> */}
+          
+
+                <ListItem button component="a" href="https://app.mvfinance.club/">
+                  <ListItemText>HOME</ListItemText>
+                </ListItem>
+
+                <ListItem button component="a" href="https://app.mvfinance.club/farms">
+                  <ListItemText>FARMS</ListItemText>
+                </ListItem>
+       
+                <ListItem button component="a" href="https://miniverse-mint-dapp.vercel.app/">
+                  <ListItemText>LAND MINT</ListItemText>
+                </ListItem>
+
+                <ListItem button component="a" href="https://confident-carson-b87901.netlify.app/minichilla">
+                  <ListItemText>MINICHILLA</ListItemText>
+                </ListItem>
+
+                <ListItem button component="a" href="https://confident-carson-b87901.netlify.app/miniguinea">
+                  <ListItemText>MINIGUINEA</ListItemText>
+                </ListItem>
+                
+                <ListItem button component="a" href="https://confident-carson-b87901.netlify.app/miniland">
+                  <ListItemText>MINI LAND</ListItemText>
+                </ListItem>
+
+                <ListItem button component="a" href="https://app.mvfinance.club/boardroom">
+                  <ListItemText>BOARDROOM</ListItemText>
+                </ListItem>
+                <ListItem button component="a" href="https://app.mvfinance.club/bonds">
+                  <ListItemText>BONDS</ListItemText>
+                </ListItem>
+                     
+ 
                 <ListItem button component="a" href="https://miniversefinance.gitbook.io/docs/">
                   <ListItemText>DOCS</ListItemText>
                 </ListItem>
