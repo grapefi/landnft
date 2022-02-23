@@ -2,7 +2,7 @@ import { Deployments } from './deployments';
 import { ChainId } from '@spookyswap/sdk';
 
 export type Configuration = {
-  chainId: ChainId;
+  chainId: 250;
   networkName: string;
   ftmscanUrl: string;
   defaultProvider: string;
