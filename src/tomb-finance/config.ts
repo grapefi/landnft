@@ -1,8 +1,8 @@
 import { Deployments } from './deployments';
-import { ChainId } from '@spookyswap/sdk';
+import { ChainId } from '@spiritswap/sdk';
 
 export type Configuration = {
-  chainId: 250;
+  chainId: ChainId;
   networkName: string;
   ftmscanUrl: string;
   defaultProvider: string;

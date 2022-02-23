@@ -1,6 +1,6 @@
 import { createAction } from '@reduxjs/toolkit';
 // import { ChainId } from '@uniswap/sdk';
-import { ChainId } from '@spookyswap/sdk';
+import { ChainId } from '@spiritswap/sdk';
 
 export interface SerializableTransactionReceipt {
   to: string;
@@ -14,23 +14,23 @@ export interface SerializableTransactionReceipt {
 }
 
 export const addTransaction = createAction<{
-  chainId: 250;
+  chainId: ChainId;
   hash: string;
   from: string;
   approval?: { tokenAddress: string; spender: string };
   summary?: string;
 }>('transactions/addTransaction');
 
-export const clearAllTransactions = createAction<{ chainId: 250 }>('transactions/clearAllTransactions');
+export const clearAllTransactions = createAction<{ chainId: ChainId }>('transactions/clearAllTransactions');
 
 export const finalizeTransaction = createAction<{
-  chainId: 250;
+  chainId: ChainId;
   hash: string;
   receipt: SerializableTransactionReceipt;
 }>('transactions/finalizeTransaction');
 
 export const checkedTransaction = createAction<{
-  chainId: 250;
+  chainId: ChainId;
   hash: string;
   blockNumber: number;
 }>('transactions/checkedTransaction');
