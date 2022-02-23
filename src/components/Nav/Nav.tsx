@@ -112,13 +112,13 @@ const Nav = () => {
               <a rel="noopener noreferrer" href="https://miniverse-mint-dapp.vercel.app/" className={classes.link}>
               Land Mint
               </a>
-              <a rel="noopener noreferrer" href="mvfinance.club/minichilla" className={classes.link}>
+              <a rel="noopener noreferrer" href="/minichilla" className={classes.link}>
               Minichilla
               </a>
-              <a rel="noopener noreferrer" href="mvfinance.club/miniguinea" className={classes.link}>
+              <a rel="noopener noreferrer" href="/miniguinea" className={classes.link}>
               Miniguinea
               </a>
-              <a rel="noopener noreferrer" href="mvfinance.club/miniland" className={classes.link}>
+              <a rel="noopener noreferrer" href="/miniland" className={classes.link}>
               Miniland
               </a>      
               <a rel="noopener noreferrer" href="https://app.mvfinance.club/boardroom" className={classes.link}>
@@ -183,15 +183,15 @@ const Nav = () => {
                   <ListItemText>LAND MINT</ListItemText>
                 </ListItem>
 
-                <ListItem button component="a" href="https://mvfinance.club/minichilla">
+                <ListItem button component="a" href="/minichilla">
                   <ListItemText>MINICHILLA</ListItemText>
                 </ListItem>
 
-                <ListItem button component="a" href="https://mvfinance.club/miniguinea">
+                <ListItem button component="a" href="/miniguinea">
                   <ListItemText>MINIGUINEA</ListItemText>
                 </ListItem>
                 
-                <ListItem button component="a" href="https://mvfinance.club/miniland">
+                <ListItem button component="a" href="/miniland">
                   <ListItemText>MINI LAND</ListItemText>
                 </ListItem>
 
