@@ -148,7 +148,7 @@ const Nav = () => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              2omb Finance
+              MiniVerse Finance
             </Typography>
 
             <Drawer
@@ -183,15 +183,15 @@ const Nav = () => {
                   <ListItemText>LAND MINT</ListItemText>
                 </ListItem>
 
-                <ListItem button component="a" href="/minichilla">
+                <ListItem button component="a" href="https://mvfinance.club/minichilla">
                   <ListItemText>MINICHILLA</ListItemText>
                 </ListItem>
 
-                <ListItem button component="a" href="/miniguinea">
+                <ListItem button component="a" href="https://mvfinance.club/miniguinea">
                   <ListItemText>MINIGUINEA</ListItemText>
                 </ListItem>
                 
-                <ListItem button component="a" href="/miniland">
+                <ListItem button component="a" href="https://mvfinance.club/miniland">
                   <ListItemText>MINI LAND</ListItemText>
                 </ListItem>
 
