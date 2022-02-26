@@ -986,7 +986,7 @@ export class TombFinance {
     return await Promise.all(tokenIds.map(async tokenId => {
         return {
           tokenId,
-          metaDataJson: await this.contracts['WalletNFT'].tokenURI(tokenId),
+          metaDataJson: await this.contracts['LandWalletNFT'].tokenURI(tokenId),
         };
       })
     );

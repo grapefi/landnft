@@ -101,7 +101,7 @@ const Cemetery = () => {
   const selectNftStaked = async (index) => {
     setIndexOfselectedNft(index);
     setIndexOfselectedNftInWallet(-1);
-    setReward(await tombFinance.calculateReward(account, nftsStaked[index].tokenId));
+    setReward(await tombFinance.calculateReward(account, nftsStaked[index].tokenId, 'LandStakingv1'));
   }
 
   const selectNftInWallet = async (index) => {

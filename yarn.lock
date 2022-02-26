@@ -3096,11 +3096,11 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@spookyswap/sdk@https://github.com/SpookySwap/spookyswap-sdk":
-  version "1.2.0"
-  resolved "https://github.com/SpookySwap/spookyswap-sdk#991ddb5c4d8df717a1ea97becb324bc07089b3a3"
+"@spookyswap/sdk@https://github.com/Layer3Org/spiritswap-sdk":
+  version "1.0.1"
+  resolved "https://github.com/Layer3Org/spiritswap-sdk#1e7037f08266ad52d44e2d6a34926b4a7d6d6eeb"
   dependencies:
-    "@uniswap/v2-core" "1.0.0"
+    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
@@ -4231,11 +4231,6 @@
   dependencies:
     "@typescript-eslint/types" "4.30.0"
     eslint-visitor-keys "^2.0.0"
-
-"@uniswap/v2-core@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.0.tgz#e0fab91a7d53e8cafb5326ae4ca18351116b0844"
-  integrity sha512-BJiXrBGnN8mti7saW49MXwxDBRFiWemGetE58q8zgfnPPzQKq55ADltEILqOt6VFZ22kVeVKbF8gVd8aY3l7pA==
 
 "@walletconnect/browser-utils@^1.6.5":
   version "1.6.5"
