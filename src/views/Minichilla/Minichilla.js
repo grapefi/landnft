@@ -78,7 +78,7 @@ const Cemetery = () => {
       ));
 
       setNftTotalSupply(await tombFinance.nftTotalSupply('MiniChillasWalletNFT'));
-      setNftStakedTotalSupply(await tombFinance.nftStakedTotalSupply('MiniChillasStakingNFT'));
+      setNftStakedTotalSupply(await tombFinance.nftStakedTotalSupply('MiniChillasWalletNFT', 'MiniChillasStakingNFT'));
     }
   }
 
@@ -214,7 +214,7 @@ const Cemetery = () => {
                             Claim
                           </Button>
                         </div>
-                        <p style={{maxWidth: '50%'}}>Claimable: { reward } MvDollar</p>
+                        <p style={{maxWidth: '50%'}}>Claimable: { reward / 1e18 } ETH</p>
                       </Box>
                     </>
                   }

@@ -78,7 +78,7 @@ const Cemetery = () => {
       ));
 
       setNftTotalSupply(await tombFinance.nftTotalSupply('LandWalletNFT'));
-      setNftStakedTotalSupply(await tombFinance.nftStakedTotalSupply('LandStakingv1'));
+      setNftStakedTotalSupply(await tombFinance.nftStakedTotalSupply('LandWalletNFT', 'LandStakingv1'));
     }
   }
 
@@ -135,6 +135,8 @@ const Cemetery = () => {
   const approve = async () => {
     await tombFinance.landStakingApprove();
   }
+
+  console.log(nftTotalSupply, nftStakedTotalSupply);
 
   return (
     <Switch>
@@ -248,7 +250,7 @@ const Cemetery = () => {
                             Claim
                           </Button>
                         </div>
-                        <p style={{maxWidth: '50%'}}>Claimable: { reward } MvDollar</p>
+                        <p style={{maxWidth: '50%'}}>Claimable: { reward / 1e18 } ETH</p>
                       </Box>
                     </>
                   }

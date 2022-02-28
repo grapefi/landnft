@@ -1005,9 +1005,9 @@ export class TombFinance {
    * Get total amount of NFTs which are staked
    * @returns
    */
-   async nftStakedTotalSupply(contract: string = 'StakingNFT'): Promise<number> {
-    const totalSupply:BigNumber = await this.provider.getBalance(this.config.deployments[contract].address);
-
+   async nftStakedTotalSupply(walletContract: string = 'WalletNFT', stakingContract: string = 'StakingNFT'): Promise<number> {
+    const totalSupply:BigNumber = await this.contracts[walletContract].balanceOf(this.config.deployments[stakingContract].address);
+    console.log(totalSupply.toString());
     return totalSupply.toNumber();
   }
 
