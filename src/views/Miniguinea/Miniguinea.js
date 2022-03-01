@@ -215,7 +215,7 @@ const Cemetery = () => {
                             Claim
                           </Button>
                         </div>
-                        <p style={{maxWidth: '50%'}}>Claimable: { reward / 1e18 } ETH</p>
+                        <p style={{maxWidth: '50%'}}>Claimable: { reward / 1e18 } MvDOLLAR</p>
                       </Box>
                     </>
                   }
