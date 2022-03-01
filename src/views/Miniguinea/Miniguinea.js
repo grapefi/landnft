@@ -102,7 +102,7 @@ const Cemetery = () => {
   const selectNftStaked = async (index) => {
     setIndexOfselectedNft(index);
     setIndexOfselectedNftInWallet(-1);
-    setReward(await tombFinance.calculateRewards(account, nftsStaked.map(nft => nft.tokenId), 'MiniGuineasStakingNFT'));
+    setReward(await tombFinance.calculateRewards(account, [nftsStaked[index].tokenId], 'MiniGuineasStakingNFT'));
   }
 
   const selectNftInWallet = async (index) => {
@@ -122,7 +122,7 @@ const Cemetery = () => {
 
   const claim = async () => {
     await tombFinance.claim(nftsStaked[indexOfSelectedNft].tokenId, 'MiniGuineasStakingNFT');
-    setReward(await tombFinance.calculateRewards(account, nftsStaked.map(nft => nft.tokenId), 'MiniGuineasStakingNFT'));
+    setReward(await tombFinance.calculateRewards(account, [nftsStaked[indexOfSelectedNft].tokenId], 'MiniGuineasStakingNFT'));
   }
 
   const approve = async () => {

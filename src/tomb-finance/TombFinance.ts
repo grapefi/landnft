@@ -1007,7 +1007,6 @@ export class TombFinance {
    */
    async nftStakedTotalSupply(walletContract: string = 'WalletNFT', stakingContract: string = 'StakingNFT'): Promise<number> {
     const totalSupply:BigNumber = await this.contracts[walletContract].balanceOf(this.config.deployments[stakingContract].address);
-    console.log(totalSupply.toString());
     return totalSupply.toNumber();
   }
 
@@ -1017,10 +1016,9 @@ export class TombFinance {
    * @param tokenId Id of token selected
    * @returns
    */
-   async calculateRewards(address: string, tokenIds: BigNumber, contract: string = 'StakingNFT'): Promise<string> {
-    const reward:BigNumber = await this.contracts[contract].calculateRewards(address, tokenIds);
-
-    return reward.toString();
+   async calculateRewards(address: string, tokenIds: BigNumber, contract: string = 'StakingNFT'): Promise<number> {
+    const reward:BigNumber[] = await this.contracts[contract].calculateRewards(address, tokenIds);
+    return reward[0].toNumber();
   }
 
   /**
