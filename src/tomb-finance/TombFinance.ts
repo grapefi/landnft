@@ -1016,9 +1016,9 @@ export class TombFinance {
    * @param tokenId Id of token selected
    * @returns
    */
-   async calculateRewards(address: string, tokenIds: BigNumber, contract: string = 'StakingNFT'): Promise<number> {
+   async calculateRewards(address: string, tokenIds: BigNumber, contract: string = 'StakingNFT'): Promise<string> {
     const reward:BigNumber[] = await this.contracts[contract].calculateRewards(address, tokenIds);
-    return reward[0].toNumber();
+    return reward[0].toString();
   }
 
   /**
