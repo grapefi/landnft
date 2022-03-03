@@ -109,9 +109,7 @@ const Nav = () => {
               <a rel="noopener noreferrer" href="https://app.mvfinance.club/farms" className={classes.link}>
               Farms
               </a>
-              <a rel="noopener noreferrer" href="https://miniverse-mint-dapp.vercel.app/" className={classes.link}>
-              Land Mint
-              </a>
+        
               <a rel="noopener noreferrer" href="/minichilla" className={classes.link}>
               Minichilla
               </a>
@@ -179,9 +177,7 @@ const Nav = () => {
                   <ListItemText>FARMS</ListItemText>
                 </ListItem>
        
-                <ListItem button component="a" href="https://miniverse-mint-dapp.vercel.app/">
-                  <ListItemText>LAND MINT</ListItemText>
-                </ListItem>
+         
 
                 <ListItem button component="a" href="https://mvfinance.club/minichilla">
                   <ListItemText>MINICHILLA</ListItemText>
