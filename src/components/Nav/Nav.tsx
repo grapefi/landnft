@@ -122,9 +122,9 @@ const Nav = () => {
               <a rel="noopener noreferrer" href="https://app.mvfinance.club/boardroom" className={classes.link}>
               Boardroom
               </a>
-              <a rel="noopener noreferrer" href="https://app.mvfinance.club/bonds" className={classes.link}>
+           {/*   <a rel="noopener noreferrer" href="https://app.mvfinance.club/bonds" className={classes.link}>
               Bonds
-              </a>
+        </a>*/}
     
 
 
@@ -194,9 +194,9 @@ const Nav = () => {
                 <ListItem button component="a" href="https://app.mvfinance.club/boardroom">
                   <ListItemText>BOARDROOM</ListItemText>
                 </ListItem>
-                <ListItem button component="a" href="https://app.mvfinance.club/bonds">
+               {/* <ListItem button component="a" href="https://app.mvfinance.club/bonds">
                   <ListItemText>BONDS</ListItemText>
-                </ListItem>
+            </ListItem>*/}
                      
  
                 <ListItem button component="a" href="https://miniversefinance.gitbook.io/docs/">
