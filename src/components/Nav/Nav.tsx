@@ -97,9 +97,7 @@ const Nav = () => {
           <>
             <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
               {/* <a className={ classes.brandLink } href="/">2omb Finance</a> */}
-              <Link to="/" color="inherit" className={classes.brandLink}>
                 <img alt="MiniVerse" src={mvLogo} height="60px" style={{ marginTop: '20px' }} />
-              </Link>
             </Typography>
 
             <Box mr={5}>
@@ -108,10 +106,7 @@ const Nav = () => {
               </a>
               <a rel="noopener noreferrer" href="https://app.mvfinance.club/farms" className={classes.link}>
               Farms
-              </a>
-              <a rel="noopener noreferrer" href="https://miniverse-mint-dapp.vercel.app/" className={classes.link}>
-              Land Mint
-              </a>
+              </a>     
               <a rel="noopener noreferrer" href="/minichilla" className={classes.link}>
               Minichilla
               </a>
@@ -124,12 +119,15 @@ const Nav = () => {
               <a rel="noopener noreferrer" href="https://app.mvfinance.club/boardroom" className={classes.link}>
               Boardroom
               </a>
-              <a rel="noopener noreferrer" href="https://app.mvfinance.club/bonds" className={classes.link}>
+           {/*   <a rel="noopener noreferrer" href="https://app.mvfinance.club/bonds" className={classes.link}>
               Bonds
+        </a>*/}
+              <a target="_blank" href="https://app.mvfinance.club/strategies" className={classes.link}>
+                Strategy
               </a>
-    
-
-
+              <a target="_blank" href="https://app.mvfinance.club/raffle" className={classes.link}>
+                Raffle
+              </a>   
               <a target="_blank" rel="noopener noreferrer" href="https://miniversefinance.gitbook.io/docs/" className={classes.link}>
                 Docs
               </a>
@@ -170,7 +168,6 @@ const Nav = () => {
               <Divider />
               <List>
           
-
                 <ListItem button component="a" href="https://app.mvfinance.club/">
                   <ListItemText>HOME</ListItemText>
                 </ListItem>
@@ -178,19 +175,12 @@ const Nav = () => {
                 <ListItem button component="a" href="https://app.mvfinance.club/farms">
                   <ListItemText>FARMS</ListItemText>
                 </ListItem>
-       
-                <ListItem button component="a" href="https://miniverse-mint-dapp.vercel.app/">
-                  <ListItemText>LAND MINT</ListItemText>
-                </ListItem>
-
                 <ListItem button component="a" href="https://mvfinance.club/minichilla">
                   <ListItemText>MINICHILLA</ListItemText>
                 </ListItem>
-
                 <ListItem button component="a" href="https://mvfinance.club/miniguinea">
                   <ListItemText>MINIGUINEA</ListItemText>
-                </ListItem>
-                
+                </ListItem>      
                 <ListItem button component="a" href="https://mvfinance.club/miniland">
                   <ListItemText>MINI LAND</ListItemText>
                 </ListItem>
@@ -198,11 +188,15 @@ const Nav = () => {
                 <ListItem button component="a" href="https://app.mvfinance.club/boardroom">
                   <ListItemText>BOARDROOM</ListItemText>
                 </ListItem>
-                <ListItem button component="a" href="https://app.mvfinance.club/bonds">
+               {/* <ListItem button component="a" href="https://app.mvfinance.club/bonds">
                   <ListItemText>BONDS</ListItemText>
+            </ListItem>*/}
+                <ListItem button component="a" href="https://app.mvfinance.club/raffle">
+                  <ListItemText>Raffle</ListItemText>
                 </ListItem>
-                     
- 
+                <ListItem button component="a" href="https://app.mvfinance.club/strategies">
+                  <ListItemText>Strategy</ListItemText>
+                </ListItem>
                 <ListItem button component="a" href="https://miniversefinance.gitbook.io/docs/">
                   <ListItemText>DOCS</ListItemText>
                 </ListItem>
