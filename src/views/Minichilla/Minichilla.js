@@ -88,9 +88,9 @@ const Cemetery = () => {
 
   const getImageFromJSON = async (json) => {
     try {
-      const { image, name} = await (await fetch('https://gateway.pinata.cloud/ipfs/' + json.replace('ipfs://', ''))).json();
+      const { image, name} = await (await fetch('https://miniversefinance.mypinata.cloud/ipfs/' + json.replace('ipfs://', ''))).json();
       return {
-        image: 'https://gateway.pinata.cloud/ipfs/' + image.replace('ipfs://', ''),
+        image: 'https://miniversefinance.mypinata.cloud/ipfs/' + image.replace('ipfs://', ''),
         name,
       };
     } catch(e) {
