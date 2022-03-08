@@ -128,6 +128,9 @@ const Nav = () => {
               <a target="_blank" href="https://app.mvfinance.club/raffle" className={classes.link}>
                 Raffle
               </a>   
+              <a rel="noopener noreferrer" href="https://yieldwolf.finance/fantom" className={classes.link}>
+              Yield Wolf
+              </a>  
               <a target="_blank" rel="noopener noreferrer" href="https://miniversefinance.gitbook.io/docs/" className={classes.link}>
                 Docs
               </a>
@@ -197,6 +200,9 @@ const Nav = () => {
                 <ListItem button component="a" href="https://app.mvfinance.club/strategies">
                   <ListItemText>Strategy</ListItemText>
                 </ListItem>
+                <ListItem button component="a" href="https://yieldwolf.finance/fantom">
+                  <ListItemText>Yield Wolf</ListItemText>
+                </ListItem>  
                 <ListItem button component="a" href="https://miniversefinance.gitbook.io/docs/">
                   <ListItemText>DOCS</ListItemText>
                 </ListItem>
