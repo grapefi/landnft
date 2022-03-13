@@ -15,7 +15,9 @@
     display: flex;
     align-items: center;
     gap: 1.75rem; // 28px
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
     button {
       width: max-content;
       height: max-content;
