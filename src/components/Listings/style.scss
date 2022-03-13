@@ -1,0 +1,24 @@
+.listings {
+  display: flex;
+  flex-direction: column;
+  min-height: 27.9375rem; // 447px
+  
+  h3 {
+    font-size: 4.5rem;
+    color: white;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  &__grid {
+    max-width: max-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 4.5rem; // 72px
+
+    @media screen and(max-width: 768px){
+      display: unset;
+    }
+  }
+}
