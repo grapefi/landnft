@@ -43,9 +43,9 @@ const Header = () => {
             </a>
           ))}
         </div>
-        <button>
+        <a href="https://www.apeoclock.com/launch/miniverse-finance-launch/">
           <img className="approved" src={approvedImg} alt="aproved_image" />
-        </button>
+        </a>
       </div>
     </header>
   )

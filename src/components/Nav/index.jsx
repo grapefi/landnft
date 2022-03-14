@@ -15,8 +15,8 @@ const Links = [
     href: 'https://linktr.ee/miniverseclub',
   },
   {
-    label: 'AUDITS(COMING SOON)',
-    href: '#',
+    label: 'AUDITS',
+    href: 'https://github.com/0xGuard-com/audit-reports/blob/master/mini-verse/miniverse-report.pdf',
   },
 ]
 
