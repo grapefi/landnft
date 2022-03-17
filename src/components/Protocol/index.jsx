@@ -12,7 +12,7 @@ const PROTOCOLS = [
     rules: [
       'Incentivized LP Rewards',
       'Claim Whenever You Want',
-      'Mult-Year Emissions (Long Term Growth)',
+      'Multi-Year Emissions (Long Term Growth)',
     ],
     buttonText: 'FARM',
     href: 'https://app.mvfinance.club/farms',
@@ -22,7 +22,7 @@ const PROTOCOLS = [
     img: protocol2Img,
     rules: [
       'Prints MvDOLLAR if TWAP < 1.01',
-      'Claim Every 4 Hours',
+      'Claim Every 12 Hours',
       'Pays Bond Premium To Keep PEG',
     ],
     buttonText: 'STAKE',
