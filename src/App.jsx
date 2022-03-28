@@ -1,9 +1,8 @@
 import React from 'react'
 import './app.scss'
+import AboutMiniverse from './components/AboutMiniverse'
 import Header from './components/Header'
-import Listings from './components/Listings'
 import Nav from './components/Nav'
-import Protocol from './components/Protocol'
 import Socials from './components/Socials'
 import Team from './components/Team'
 import Tokens from './components/Tokens'
@@ -16,9 +15,8 @@ const App = () => {
       <Nav />
       <Welcome />
       <Tokens />
-      <Protocol />
+      <AboutMiniverse />
       <Team />
-      <Listings />
       <Socials />
     </div>
   )

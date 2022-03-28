@@ -1,0 +1,41 @@
+.aboutMiniverse {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #ede7f6;
+
+  h2 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+    color: #333366;
+  }
+
+  .image {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  img {
+    width: 100%;
+    max-width: max-content;
+    object-fit: contain;
+    &.mobile {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    img {
+      &.desktop {
+        display: none;
+      }
+
+      &.mobile {
+        display: block;
+      }
+    }
+  }
+}

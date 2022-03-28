@@ -1,21 +1,23 @@
 import React from 'react'
 import './style.scss'
+import logo from '../../assets/brand_logo.png'
+import Button from '../Button'
 
 const Links = [
   {
-    label: 'TEAM',
+    label: 'Team',
     href: '#team-members',
   },
   {
-    label: 'DOCS',
-    href: 'https://miniversefinance.gitbook.io/docs/',
-  },
-  {
-    label: 'LINKS',
+    label: 'Links',
     href: 'https://linktr.ee/miniverseclub',
   },
   {
-    label: 'AUDITS',
+    label: 'Docs',
+    href: 'https://miniversefinance.gitbook.io/docs/',
+  },
+  {
+    label: 'Audit',
     href: 'https://github.com/0xGuard-com/audit-reports/blob/master/mini-verse/miniverse-report.pdf',
   },
 ]
@@ -23,9 +25,15 @@ const Links = [
 const Nav = () => {
   return (
     <nav className="nav">
-      {Links.map(({ label, href }) => (
-        <a href={href}>{label}</a>
-      ))}
+      <Button href="https://app.mvfinance.club/">ENTER DAPP</Button>
+      <ul className="links">
+        {Links.map(({ label, href }, index) => (
+          <React.Fragment key={index}>
+            <a href={href}>{label}</a>
+            {index + 1 !== Links.length && <span>|</span>}
+          </React.Fragment>
+        ))}
+      </ul>
     </nav>
   )
 }

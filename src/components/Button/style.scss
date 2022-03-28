@@ -1,22 +1,23 @@
-.button {
-  background-color: rgba(22, 38, 91, 0.93);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border: 1px solid #000000;
-  color: white;
-  font-size: 2.25rem; // 36px
-  line-height: 1.25;
-  font-family: inherit;
+a.button {
+  width: 216px;
+  height: 74px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  color: #ddcaef;
+  background-color: #47478b;
+  font-size: 26px;
+  font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
+  padding: 0 20px;
+  transition: background 0.2s ease;
 
-  &.large {
-    width: 394px;
-    padding: 1.875rem 2.75rem; // 30px 44px
+  &:hover {
+    background-color: #25256e;
   }
 
-  &.medium {
-    width: 243px;
-    padding: 0.875rem; // 14px
-    line-height: 1;
-    text-align: center;
+  &.rounded {
+    border-radius: 15px;
   }
 }

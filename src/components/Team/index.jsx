@@ -1,69 +1,79 @@
 import React from 'react'
 import Section from '../Section'
-import img1 from '../../assets/team/1.png'
-import img2 from '../../assets/team/2.png'
-import img3 from '../../assets/team/3.png'
-import img4 from '../../assets/team/4.png'
-import img5 from '../../assets/team/5.png'
-import img6 from '../../assets/team/6.png'
+import nateImage from '../../assets/team/nate.png'
+import nickBImage from '../../assets/team/nickb.png'
+import guienaImage from '../../assets/team/guiena.png'
+import ericImage from '../../assets/team/eric.png'
+import davidImage from '../../assets/team/david.png'
+import daveImage from '../../assets/team/dave.png'
+import havocImage from '../../assets/team/havoc.png'
+import ganonImage from '../../assets/team/ganon.png'
+
 import './style.scss'
 
 const TEAM_LIST = [
   {
-    name: 'NATE1',
-    image: img6,
-    job: 'DEV',
+    name: 'Nate1',
+    image: nateImage,
+    job: 'Developer',
   },
   {
-    name: 'NICKB',
-    image: img4,
-    job: 'ADVISOR',
+    name: 'NickB',
+    image: nickBImage,
+    job: 'Advisor',
   },
   {
-    name: 'GUINEA PICASSO',
-    image: img2,
-    job: 'ARTIST',
+    name: 'Guinea Picasso',
+    image: guienaImage,
+    job: 'Artist',
   },
   {
-    name: 'DAVE',
-    image: img1,
-    job: 'GRAPHICS',
+    name: 'Eric',
+    image: ericImage,
+    job: 'Marketing',
   },
   {
-    name: 'HAVOC',
-    image: img5,
-    job: 'MARKETING',
+    name: 'David Defi',
+    image: davidImage,
+    job: 'Blockchain Developer',
   },
   {
-    name: 'ERIC',
-    image: img3,
-    job: 'MARKETING',
-  }
+    name: 'Dave',
+    image: daveImage,
+    job: 'Graphics',
+  },
+  {
+    name: 'Havoc',
+    image: havocImage,
+    job: 'Marketing',
+  },
+  {
+    name: 'GaNoN',
+    image: ganonImage,
+    job: 'Marketing',
+  },
 ]
 
 const TeamMember = ({ name, image, job }) => {
   return (
     <div className="team__member">
       <h3>{name}</h3>
-      <div className="card">
-        <div className="image">
-          <img src={image} alt={name} />
-        </div>
-        <span>{job}</span>
-      </div>
+      <img src={image} alt={name} />
+      <span>{job}</span>
     </div>
   )
 }
 
 const Team = () => {
   return (
-    <Section title="TEAM">
+    <div className="teamSection">
+      <h2>OUR TEAM</h2>
       <div className="team" id="team-members">
         {TEAM_LIST.map((member, index) => (
           <TeamMember key={index} {...member} />
         ))}
       </div>
-    </Section>
+    </div>
   )
 }
 
