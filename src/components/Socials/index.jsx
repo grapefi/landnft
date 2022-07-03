@@ -37,7 +37,7 @@ const socials = [
   },
   {
     icon: discordImg,
-    href: 'https://discord.com/invite/CxRWUGSyRv',
+    href: 'https://discord.com/invite/fr4w38NXX5',
   },
   {
     icon: youtubeImg,
