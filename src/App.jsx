@@ -16,7 +16,6 @@ const App = () => {
       <Welcome />
       <Tokens />
       <AboutMiniverse />
-      <Team />
       <Socials />
     </div>
   )
