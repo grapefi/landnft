@@ -9,10 +9,10 @@ const Welcome = () => {
       <h1>MINIVERSE</h1>
       <h3>NFT GAMEFI MEETS ALGORITHMIC STABLE COIN</h3>
       <div className="buttons">
-        <Button rounded href="https://app.mvfinance.club/">
+        <Button rounded href="https://app.miniverse.finance/">
           ENTER
         </Button>
-        <Button rounded href="https://app.mvfinance.club/">
+        <Button rounded href="https://breeding.miniverse.finance">
           BREEDING GAME
         </Button>
       </div>

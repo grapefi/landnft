@@ -15,7 +15,7 @@ const PROTOCOLS = [
       'Multi-Year Emissions (Long Term Growth)',
     ],
     buttonText: 'FARM',
-    href: 'https://app.mvfinance.club/farms',
+    href: 'https://app.miniverse.finance/farms',
   },
   {
     title: 'BOARDROOM',
@@ -26,7 +26,7 @@ const PROTOCOLS = [
       'Pays Bond Premium To Keep PEG',
     ],
     buttonText: 'STAKE',
-    href: 'https://app.mvfinance.club/boardroom',
+    href: 'https://app.miniverse.finance/boardroom',
   },
   {
     title: 'NFT GAMEFI',
@@ -37,7 +37,7 @@ const PROTOCOLS = [
       'Life Time MvDOLLAR',
     ],
     buttonText: 'BREED',
-    href: 'https://app.mvfinance.club/minichilla',
+    href: 'https://app.miniverse.finance/minichilla',
   },
 ]
 

@@ -25,7 +25,7 @@ const Links = [
 const Nav = () => {
   return (
     <nav className="nav">
-      <Button href="https://app.mvfinance.club/">ENTER DAPP</Button>
+      <Button href="https://app.miniverse.finance/">ENTER DAPP</Button>
       <ul className="links">
         {Links.map(({ label, href }, index) => (
           <React.Fragment key={index}>
